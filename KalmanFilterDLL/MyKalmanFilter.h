@@ -22,7 +22,6 @@ namespace MyKalmanFilterDLL {
 		cv::Mat* state;
 		cv::Mat* processNoise;
 		cv::Mat* measurement;
-		//cv::RNG rng;
 		double x;
 		double y;
 
