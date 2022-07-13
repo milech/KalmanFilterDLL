@@ -14,7 +14,7 @@ MyKalmanFilterDLL::MyKalmanFilter::MyKalmanFilter(void)
 		   cv::Scalar::all(0),
 		   cv::Scalar::all(0.1)
 		   );
-	kf->transitionMatrix = (cv::Mat_<float>(4, 4) << 1, 0, 1.43, 1,	// TODO: 1, 0, 1.43, 0 ??????
+	kf->transitionMatrix = (cv::Mat_<float>(4, 4) << 1, 0, 1.43, 0,	// TODO: 1, 0, 1.43, 0 ??????
 													 0, 1, 0, 1.43,
 													 0, 0, 1, 0,
 													 0, 0, 0, 1);
