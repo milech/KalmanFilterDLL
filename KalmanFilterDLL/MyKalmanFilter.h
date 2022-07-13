@@ -7,7 +7,6 @@
 
 
 namespace MyKalmanFilterDLL {
-
 	// [x, y, v*sin(alfa), v*cos(alfa)]
 	//const float A[] =  {1, 0, 1.43f, 0,	// x = x + dt * (v*sin(alfa)), dt = ((1000 ms / FPS) * nEarlierSetts.getT1()(=3)) / 100 = 10 * nEarlierSetts.getT1() / FPS
 	//					  0, 1, 0, 1.43f,	// y = y + dt * (v*cos(alfa))
